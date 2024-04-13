@@ -52,7 +52,7 @@ function Navbar( {tukhoatimkiem , settukhoatimkiem  } : navapros) {
                 danhsachtheloai.map((theloai) => (
                   
 
-                   <li><Link className="dropdown-item"  to = {`${theloai.matheloai}`}  >{theloai.tentheloai} </Link></li>
+                   <li><Link className="dropdown-item"  to = {`theloai/${theloai.matheloai}`}  >{theloai.tentheloai} </Link></li>
                 ))
                 
               }
